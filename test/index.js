@@ -1,7 +1,3 @@
-# csv-columns
-Sometimes all you care about are columns. Uses [`csv-parser`](https://github.com/mafintosh/csv-parser) module under the hood. API is same as `csv-parser`. Will convert both arrays (no headers) and objects (with headers) if headers are passed into options.
-
-```javascript
 var test = require('tape');
 var parse = require('../');
 
@@ -20,4 +16,3 @@ test('objects', function(t) {
     });
     t.end();
 });
-```

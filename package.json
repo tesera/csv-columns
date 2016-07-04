@@ -1,0 +1,18 @@
+{
+  "name": "csv-columns",
+  "version": "1.0.0",
+  "description": "Sometimes all you care about are columns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test"
+  },
+  "keywords": ["csv", "parser", "columns"],
+  "author": "yves.richard@tesera.com",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
